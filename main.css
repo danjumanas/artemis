@@ -1,0 +1,90 @@
+header{
+  background-color: #37517E;
+  height: 400px;
+  text-align: center;
+  color: #F5F5F5;
+}
+header p{
+  width: 75%;
+  margin: 20px auto;
+}
+header button{
+  margin-bottom: 20px;
+}
+.bitcoin_graph{
+  width: 100%;
+}
+.sub_heading{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+.trusted_by img{
+  height: 50px;
+  margin: 10px auto 0 ;
+}
+.features img{
+  margin: 10px auto 0 ;
+}
+.graphs img{
+  margin: 30px auto 0;
+}
+.statistics img{
+  height: 70px;
+  margin: 10px auto 0 ;
+}
+.download_platform img{
+  margin: 30px auto 0;
+}
+.subscribe{
+  padding: 10px;
+}
+.subscribe_form{
+  padding: 10px;
+  margin: 20px auto 0;
+  background-color:  #EBEBEB;
+}
+.subscribe_form input{
+  width: 95%;
+}
+.subscribe_text{
+  padding: 10px;
+  margin: 20px auto 0;
+}
+
+footer{
+  background-color:  #37517E;
+  color: #F5F5F5;
+  margin: 10px auto 0;
+}
+@media (min-width: 480px) {
+  .bitcoin_graph{
+    width: 350px;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -175px;
+
+  }
+  .trusted_by_text{
+    margin-top: 130px;
+    text-align: center;
+  }
+
+}
+@media (max-width: 767px) {
+  #invisible_mobile{
+    display: none;
+  }
+  .subscribe{
+    width: 60%;
+    margin: 20px auto 0;
+  }
+
+}
+@media (max-width: 479px) {
+  .footer_artemis_text{
+    display: none;
+  }
+}
